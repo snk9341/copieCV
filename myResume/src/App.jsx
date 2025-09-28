@@ -57,7 +57,6 @@ function Presentation({ current }) {
 
 function Skills({ current, skills }) {
   if (current == "skills") {
-    console.log(skills[0])
     return (
       <>
         <div className='slide container lg-btn' id='skills'>
@@ -66,7 +65,7 @@ function Skills({ current, skills }) {
           {skills.map((skill, index) => {
             return (
               <>
-              <a className='card lg-btn' href="">
+              <a className='card lg-btn' href={skill.doc}>
                   <img src={skill.image} alt="" />
                   <h3>{skill.titre}</h3>
                 </a>
@@ -90,7 +89,7 @@ function Experiences({current, exp}) {
           {exp.map((exp, index) => {
             return (
               <>
-              <a className='card lg-btn' href="">
+              <a className='card lg-btn'>
                   <img src={exp.image} alt="" />
                   <h3>{exp.titre}</h3>
                   <h4>{exp.date}</h4>
@@ -197,7 +196,6 @@ function App() {
   function changeSlide(slide) {
     setCurrentDiv(slide)
     menuDisplayed()
-    console.log(currentDiv)
   }
 
 

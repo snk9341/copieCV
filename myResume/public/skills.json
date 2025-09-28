@@ -1,34 +1,42 @@
 [
     {
         "titre": "Html",
-        "image": "https://c4.wallpaperflare.com/wallpaper/887/817/276/html-5-html-5-logo-wallpaper-thumb.jpg"
+        "image": "https://c4.wallpaperflare.com/wallpaper/887/817/276/html-5-html-5-logo-wallpaper-thumb.jpg",
+        "doc": "https://developer.mozilla.org/fr/docs/Web/HTML"
     },
     {
         "titre": "CSS",
-        "image": "https://wallpapercave.com/wp/wp14758676.jpg"
+        "image": "https://wallpapercave.com/wp/wp14758676.jpg",
+        "doc": "https://developer.mozilla.org/fr/docs/Web/CSS"
     },
     {
         "titre": "php",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi245WyLyYHxOUlH49A4tBLRfVSpjebThXzSkbj9IUTsLUK0OoMipARsDV3MfK3JmN3U39rWd0j9DpQF65O1O5pSlzDmxkLfOLcHH8KA8SS9FkqDy7nBQnoC_aWVo9pvRtmDmO02AQQ9KT0hqG77YTPsjkurwsyQcPbVtwvi4FiF1E6IVjQqEKdA3YkYupF/s750/4994252_6808_2.jpg"
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi245WyLyYHxOUlH49A4tBLRfVSpjebThXzSkbj9IUTsLUK0OoMipARsDV3MfK3JmN3U39rWd0j9DpQF65O1O5pSlzDmxkLfOLcHH8KA8SS9FkqDy7nBQnoC_aWVo9pvRtmDmO02AQQ9KT0hqG77YTPsjkurwsyQcPbVtwvi4FiF1E6IVjQqEKdA3YkYupF/s750/4994252_6808_2.jpg",
+        "doc": "https://www.php.net/"
     },
     {
         "titre": "javascript",
-        "image": "https://wallpapercave.com/wp/wp12454874.jpg"
+        "image": "https://wallpapercave.com/wp/wp12454874.jpg",
+        "doc": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
     },
     {
         "titre": "clojure",
-        "image": "https://arootroatch-blog.vercel.app/_next/image?url=%2Fimg%2Fclojure-banner.png&w=3840&q=5"
+        "image": "https://arootroatch-blog.vercel.app/_next/image?url=%2Fimg%2Fclojure-banner.png&w=3840&q=5",
+        "doc": "https://clojure.org/"
     },
     {
         "titre": "react",
-        "image": "https://hello-pomelo.com/wp-content/uploads/2024/01/react.png"
+        "image": "https://hello-pomelo.com/wp-content/uploads/2024/01/react.png",
+        "doc": "https://fr.react.dev/"
     },
     {
         "titre": "svelte",
-        "image": "https://miro.medium.com/v2/resize:fit:676/1*RITt6fMV2WpksJ8f1C2gVw.png"
+        "image": "https://miro.medium.com/v2/resize:fit:676/1*RITt6fMV2WpksJ8f1C2gVw.png",
+        "doc": "https://svelte.dev/"
     },
     {
         "titre": "reframe/re-agent",
-        "image": "https://i.vimeocdn.com/video/603160108-0b12a06a7ecbcf9b6b104a05df1f99cb909c0714fcb60af5bcac1a3349093354-d_640x360?r=pad"
+        "image": "https://i.vimeocdn.com/video/603160108-0b12a06a7ecbcf9b6b104a05df1f99cb909c0714fcb60af5bcac1a3349093354-d_640x360?r=pad",
+        "doc": "https://day8.github.io/re-frame/"
     }    
 ]

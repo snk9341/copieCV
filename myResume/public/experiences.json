@@ -1,12 +1,12 @@
 [
     {
         "titre": "Stage La Poste",
-        "image": "/src/assets/logo-La-Poste.jpg",
+        "image": "./src/logo-La-Poste.jpg",
         "date": "décembre 2019"
     },
     {
         "titre": "Brevet des collèges",
-        "image": "/src/assets/photo-collège.jpg",
+        "image": "./src/photo-collège.jpg",
         "date": "septembre2016 - juin 2020"
     },
     {
