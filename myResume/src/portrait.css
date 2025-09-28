@@ -1,0 +1,192 @@
+@media screen and (orientation: portrait) {
+  header {
+    h1 {
+      font-size: 2em;
+      text-align: start;
+      width: 70%;
+      margin-left: 5%;
+    }
+    .lg-btn {
+      text-align: center;
+      width: 12%;
+      font-size: 1em;
+      margin-right: 5%;
+      animation-name: unrotate;
+      animation-duration: 0.75s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .lg-btn.gl.displayed {
+      animation-name: rotate;
+      animation-duration: 0.75s;
+    }
+  }
+
+  nav {
+    animation: fadeOutPortrait 0.75s;
+    animation-fill-mode: forwards;
+
+    a {
+      animation: opacityOut 0.3s;
+    }
+  }
+
+  nav.displayed {
+    animation: fadeInPortrait 0.5s;
+    display: flex;
+    width: var(--width-menu-portrait);
+    height: 70%;
+
+    a {
+      animation: opacityIn 0.5s;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+
+      border-radius: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10%;
+      gap: 5%;
+
+      a {
+        text-decoration: none;
+        width: 80%;
+        height: 12%;
+        li {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  #intro.container.displayed {
+    display: none;
+  }
+
+    #skills.container.displayed {
+    display: none;
+  }
+
+      #exp.container.displayed {
+    display: none;
+  }
+
+        #project.container.displayed {
+    display: none;
+  }
+
+  #intro {
+    h3 {
+      animation: opacityIn 1.5s;
+      width: 100%;
+      height: 10%;
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 15%;
+    }
+
+    p {
+      animation: opacityIn 1.5s;
+      width: 100%;
+      height: 90%;
+      padding-bottom: 5%;
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .slide.lg-btn {
+    width: 75%;
+    height: 70%;
+    border-radius: 2em;
+
+    margin: 0 auto;
+    padding: 10%;
+
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: showDiv 1s;
+
+
+  }
+
+    #skills, #exp, #project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    div {
+      width: 100%;
+      height: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 10px;
+      overflow: scroll;
+      
+
+      .card {
+        width: 40%;
+        padding: 2%;
+        height: 35%;
+        border-radius: 1em;
+        margin: 2%;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        img {
+          width: 60%;
+          aspect-ratio: 1;
+          border-radius: 100vw;
+          object-fit: cover;
+          margin: auto;
+        }
+        h3 {
+          margin-top: 5%;
+          margin-bottom: 5%;
+          height: 20%;
+          text-align: center;
+          font-size: 4vw;
+        }
+        h4 {
+          height: 20%;
+          width: 100%;
+          font-size: 3vw;
+          text-align: center;
+        }
+      }
+    }
+
+    h2 {
+      margin-top: 1%;
+      margin-bottom: 4%;
+      width: 100%;
+      height: 5%;
+      font-size: 6vw;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+body {
+  width: 95vw;
+  height: 100vh;
+  background: var(--main-background);
+  background-size: cover;
+  color: var(--main-text-color);
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 10%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  button.lg-btn {
+    aspect-ratio: 1;
+  }
+}
+
+main {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/* liquid glass */
+.container {
+  animation: drift 60s ease-in-out infinite alternate;
+}
+
+.lg-btn {
+  border-radius: 10.2vmin 9.8vmin 10.2vmin 9.8vmin;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.3),
+    inset -2px -2px 2px 1px rgba(255, 255, 255, 0.3),
+    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.5);
+  cursor: pointer;
+}
+
+.gl {
+  backdrop-filter: url(#filter);
+}
+
+.lg-btn:hover {
+  transform: scale(1.05);
+  border-radius: 9.8vmin 10.2vmin 9.8vmin 10.2vmin;
+}
+
+.lg-btn:select {
+  transform: scale(0.95);
+}
+
+.container.lg-btn:hover {
+  transform: scale(1);
+  border-radius: 2em;
+}
+
+.container.lg-btn:select {
+  transform: scale(1);
+}
+
+/* reset */
+button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*liquid glass*/

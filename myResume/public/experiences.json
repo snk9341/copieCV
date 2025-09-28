@@ -1,0 +1,33 @@
+[
+    {
+        "titre": "Stage La Poste",
+        "image": "/src/assets/logo-La-Poste.jpg",
+        "date": "décembre 2019"
+    },
+    {
+        "titre": "Brevet des collèges",
+        "image": "/src/assets/photo-collège.jpg",
+        "date": "septembre2016 - juin 2020"
+    },
+    {
+        "titre": "Baccalauréat général",
+        "image": "https://aulnaycap.com/wp-content/uploads/2025/04/andre_boulloche.jpg",
+        "date": "septembre 2020 - juin 2023"
+    },
+    {
+        "titre": "BTS SIO SLAM",
+        "image": "https://www.institut-f2i.fr/wp-content/uploads/2022/10/5d397a95a400004117bbb0aa-edited-3.jpg",
+        "date": "octobre 2023 - juin 2025"
+    },
+    {
+        "titre": "Stage Metav.rs",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/63380a161124e764e14ce610/Logo-of-METAV-RS-set-to-be-the-Shopify-of-the-metaverse-/960x0.jpg?format=jpg&width=960",
+        "date": "avril 2024 - juin 2024"
+    },    
+    {
+        "titre": "alternance Power.xyz",
+        "image": "https://cdn.prod.website-files.com/644a3d469d569d0a4b4c96db/6722157f47567f545c2282db_nkuxpbqv2xsxwpn620ip.webp",
+        "date": "septembre 2024 - aujourd'hui"
+    }
+
+]

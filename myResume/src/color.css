@@ -1,0 +1,7 @@
+:root {
+  --main-background: linear-gradient(rgb(0, 0, 0), rgb(21, 23, 116));
+  --main-text-color: white;
+
+  --width-menu-landscape: 20%;
+  --width-menu-portrait: 100%;
+}
