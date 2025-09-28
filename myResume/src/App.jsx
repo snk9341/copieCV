@@ -11,6 +11,7 @@ function Header({ displayed }) {
   return (
     <header>
       <h1>My resume</h1>
+      <h2>CAPPAERT Ilann</h2>
       <button className='lg-btn gl' id='menu-button' onClick={() => displayed()} >
         <span class="material-symbols-outlined">
           menu

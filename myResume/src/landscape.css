@@ -1,10 +1,19 @@
 @media screen and (orientation: landscape) {
+  body {
+    background: url(./background.gif);
+    text-shadow: 1px 1px 2px black;
+  }
   header {
     h1 {
       font-size: 2.5vw;
       text-align: start;
-      width: 70%;
-      margin-left: 10%;
+      width: 33%;
+    }
+
+    h2 {
+      width: 33%;
+      font-size: 2vw;
+      text-align: start;
     }
 
     .lg-btn {
